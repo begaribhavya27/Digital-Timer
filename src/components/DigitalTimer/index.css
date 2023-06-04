@@ -1,0 +1,152 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 30px;
+}
+
+.timer-app-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.time {
+  font-family: 'Roboto';
+  color: #00d9f5;
+  font-size: 35px;
+}
+.status {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 1px;
+}
+.set-timer-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-pause-container {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  margin-top: 23px;
+  margin-right: 10px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: bold;
+  margin: 5px;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+}
+.para1 {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.set-timer {
+  display: flex;
+  flex-direction: row;
+}
+.plus-minus {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+.btn {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+.start-btn {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.reset-btn {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+.btn-1 {
+  background-image: linear-gradient(to right, #3aec85, #4fd3e7);
+  border-style: none;
+  padding: 10px;
+  width: 80px;
+  height: 50px;
+  border-radius: 14px;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: bold;
+}
+.text {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: bold;
+}
